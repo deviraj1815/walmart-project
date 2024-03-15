@@ -26,6 +26,9 @@ select*from walsales;
 
 -- Feature Engineering--
 
+
+-- adding time_of_day--
+
 alter table walsales add column time_of_day varchar(15);
 
 select time
