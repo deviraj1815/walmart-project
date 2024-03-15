@@ -11,9 +11,10 @@ About Data
 The dataset was obtained from the Kaggle Walmart Sales Forecasting Competition. This dataset contains sales transactions from a three different branches of Walmart, respectively located in Mandalay, Yangon and Naypyitaw. The data contains 17 columns and 1000 rows:
 
 Column	Description	Data Type
-invoice_id	Invoice of the sales made	VARCHAR(30)
-branch	Branch at which sales were made	VARCHAR(5)
-city	The location of the branch	VARCHAR(30)
+
+invoice_id	  Invoice of the sales made	  VARCHAR(30)
+branch    	Branch at which sales were made  	VARCHAR(5)
+city	  The location of the branch	VARCHAR(30)
 customer_type	The type of the customer	VARCHAR(30)
 gender	Gender of the customer making purchase	VARCHAR(10)
 product_line	Product line of the product solf	VARCHAR(100)
@@ -28,11 +29,16 @@ cogs	Cost Of Goods sold	DECIMAL(10, 2)
 gross_margin_percentage	Gross margin percentage	FLOAT(11, 9)
 gross_income	Gross Income	DECIMAL(10, 2)
 rating	Rating	FLOAT(2, 1)
+
 Analysis List
+
+
 Product Analysis
+
 Conduct analysis on the data to understand the different product lines, the products lines performing best and the product lines that need to be improved.
 
 Sales Analysis
+
 This analysis aims to answer the question of the sales trends of product. The result of this can help use measure the effectiveness of each sales strategy the business applies and what modificatoins are needed to gain more sales.
 
 Customer Analysis
